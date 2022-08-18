@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+<body>
+    <div class="container">
+        <div class="add-book-form">
+            <h2>Add Book</h2>
+            <div class="input-container">
+                <div class="title"><input type="text" id="title" placeholder="Book Title"></div>
+                <div class="author"><input type="text" id="author" placeholder="Book Author"></div>
+                <div class="pages"><input type="number" id="pages" placeholder="Book Pages"></div>
+                <div class="isRead"><p>Had read?</p> <input type="checkbox" id="isRead" value="Yes"></div>
+            </div>
+            <div class="addButtons">
+                <button id="addBookButton" type="button">Add</button>
+                <button id="cancelButton" type="button">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <div class="newbutton"><div class="header">
+        <h1>Simple Library</h1>
+        <p>Hit "+" button to add books.</p>
+        </div><button class="newBookButton">+</button></div>
+    <div class="books-container"></div>
+</body>
+</html>
